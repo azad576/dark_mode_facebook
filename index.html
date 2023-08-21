@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+       <a href="index.html"> <img class="logo" src="./images/logo.png" alt="" /></a>
+        <ul>
+          <li><img src="./images/notification.png" alt="" /></li>
+          <li><img src="./images/inbox.png" alt="" /></li>
+          <li><img src="./images/video.png" alt="" /></li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="./images/search.png" alt="" />
+          <input type="text" placeholder="search" />
+        </div>
+        <div onclick="settingmentu_toggle()" class="user-icon online">
+          <img src="./images/profile-pic.png" alt="" />
+        </div>
+      </div>
+<!-- setting menu------------- -->
+<div class="setting-menu">
+  <div id="dark_btn" >
+    <span></span>
+  </div>
+  <div class="setting-menu-inner">
+
+    <div class="user-profile">
+      <img src="./images/profile-pic.png" alt="" />
+      <div class="info">
+        <p>Johm Mia</p>
+        <a href="profile.html">See your profile</a>
+        
+      </div>
+      
+    </div>
+    <hr>
+    <div class="user-profile">
+      <img src="./images/feedback.png" alt="" />
+      <div class="info">
+        <p>Give Feedback</p>
+        <a href="">Help us to improve new Design</a>
+        
+      </div>
+      
+    </div>
+    <hr>
+
+    <div class="setting-links">
+      <img class="settings-icon" src="./images/setting.png" alt="">
+      <a href="">Setting and Privacy <img width="10px" src="./images/arrow.png" alt=""></a>
+    </div>
+    <div class="setting-links">
+      <img class="settings-icon" src="./images/help.png" alt="">
+      <a href="">Help and Suppor <img width="10px" src="./images/arrow.png" alt=""></a>
+    </div>
+
+    
+    <div class="setting-links">
+      <img class="settings-icon" src="./images/display.png" alt="">
+      <a href="">Display and Succes <img width="10px" src="./images/arrow.png" alt=""></a>
+    </div>
+
+    <div class="setting-links">
+      <img class="settings-icon" src="./images/logout.png" alt="">
+      <a href="">Logeout <img width="10px" src="./images/arrow.png" alt=""></a>
+    </div>
+  </div>
+</div>
+    </nav>
+
+    <!-- nave end -->
+
+    <div class="container">
+      <!-- left sidebar----------- -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="#"><img src=".//images/news.png" alt="" />Latest news</a>
+          <a href="#"><img src=".//images/friends.png" alt="" />friends</a>
+          <a href="#"><img src=".//images/group.png" alt="" />group</a>
+          <a href="#"
+            ><img src=".//images/marketplace.png" alt="" />marketplace</a
+          >
+          <a href="#"><img src=".//images/watch.png" alt="" />watch</a>
+          <a href="#">See More</a>
+        </div>
+        <div class="shorcuts-links">
+          <p>Your Shortcuts</p>
+          <a href="#"
+            ><img src=".//images/shortcut-1.png" alt="" />Web Devolopers</a
+          >
+          <a href="#"
+            ><img src=".//images/shortcut-2.png" alt="" />Web Design Course</a
+          >
+          <a href="#"
+            ><img src=".//images/shortcut-3.png" alt="" />Web Stact
+            Devolopment</a
+          >
+          <a href="#"
+            ><img src=".//images/shortcut-4.png" alt="" />Webste Expert
+          </a>
+        </div>
+      </div>
+
+      <!-- main sidebar----------- -->
+      <div class="main-container">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="./images/upload.png" alt="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story">
+            <img src="./images/member-1.png" alt="" />
+            <p>Md Azad</p>
+          </div>
+          <div class="story">
+            <img src="./images/member-2.png" alt="" />
+            <p>Md Rasel</p>
+          </div>
+          <div class="story">
+            <img src="./images/member-3.png" alt="" />
+            <p>Johirul Islam</p>
+          </div>
+          <div class="story">
+            <img src="./images/member-4.png" alt="" />
+            <p>Jhon doe</p>
+          </div>
+        </div>
+
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div class="info">
+              <p>Johm Mia</p>
+              <small>public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+
+          <div class="post-input-container">
+            <button>whats on your mind</button>
+          </div>
+
+          <div class="feeling-icon">
+            <a href=""
+              ><img src="./images/live-video.png" alt="" />Like Video</a
+            >
+            <a href=""><img src="./images/photo.png" alt="" />Photo Video</a>
+            <a href=""
+              ><img src="./images/feeling.png" alt="" />Feeling Activity</a
+            >
+          </div>
+        </div>
+
+        <div class="main-post">
+         <div class="post-row">
+          <div class="user-profile">
+            <img src="./images/profile-pic.png" alt="" />
+            <div class="info">
+              <p>Johm Mia</p>
+              <span>June 24 2021, 13:23 pm</span>
+            </div>
+            
+          </div>
+          <i class="fa-solid fa-ellipsis"></i>
+         </div>
+
+          <p class="post-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            quisquam reiciendis id nostrum dolorum, facilis perspiciatis
+            recusandae dolorem expedita, <a href="">#like here</a>
+            <img class="post-img" src="./images/feed-image-1.png" alt="" />
+            <div class="post-row">
+              <div class="activity-icon">
+<div><img src="./images/like-blue.png" alt="">120</div>
+<div><img src="./images/comments.png" alt="">160</div>
+<div><img src="./images/share.png" alt="">20</div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="./images/profile-pic.png" alt="" ><i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+          </p>
+        </div>
+
+
+        <div class="main-post">
+          <div class="post-row">
+           <div class="user-profile">
+             <img src="./images/profile-pic.png" alt="" />
+             <div class="info">
+               <p>Johm Mia</p>
+               <span>June 25 2021, 13:23 pm</span>
+             </div>
+             
+           </div>
+           <i class="fa-solid fa-ellipsis"></i>
+          </div>
+ 
+           <p class="post-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+             quisquam reiciendis id nostrum dolorum, facilis perspiciatis
+             recusandae dolorem expedita, <a href="">#like here</a>
+             <img class="post-img" src="./images/feed-image-2.png" alt="" />
+             <div class="post-row">
+               <div class="activity-icon">
+ <div><img src="./images/like-blue.png" alt="">120</div>
+ <div><img src="./images/comments.png" alt="">160</div>
+ <div><img src="./images/share.png" alt="">20</div>
+               </div>
+               <div class="post-profile-icon">
+                 <img src="./images/profile-pic.png" alt="" ><i class="fas fa-caret-down"></i>
+               </div>
+             </div>
+           </p>
+         </div>
+
+
+
+         <div class="main-post">
+          <div class="post-row">
+           <div class="user-profile">
+             <img src="./images/profile-pic.png" alt="" />
+             <div class="info">
+               <p>Johm Mia</p>
+               <span>June 2 2021, 13:53 pm</span>
+             </div>
+             
+           </div>
+           <i class="fa-solid fa-ellipsis"></i>
+          </div>
+ 
+           <p class="post-text">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+             quisquam reiciendis id nostrum dolorum, facilis perspiciatis
+             recusandae dolorem expedita, <a href="">#like here</a>
+             <img class="post-img" src="./images/feed-image-3.png" alt="" />
+             <div class="post-row">
+               <div class="activity-icon">
+ <div><img src="./images/like-blue.png" alt="">120</div>
+ <div><img src="./images/comments.png" alt="">160</div>
+ <div><img src="./images/share.png" alt="">20</div>
+               </div>
+               <div class="post-profile-icon">
+                 <img src="./images/profile-pic.png" alt="" ><i class="fas fa-caret-down"></i>
+               </div>
+             </div>
+           </p>
+         </div>
+      </div>
+
+      <!-- right sidebar----------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See all</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i>Willson Tech park</p>
+            <a href="">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fas fa-map-marker-alt"></i>Willson Tech park</p>
+            <a href="">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisement</h4>
+          <a href="#">Close</a>
+        </div>
+        <img class="sidebar-adds" src="./images/advertisement.png" alt="" />
+        <div class="sidebar-title">
+          <h4>Conversation</h4>
+          <a href="#">Hide Chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-1.png" alt="" />
+          </div>
+          <p>Alison Mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-2.png" alt="" />
+          </div>
+          <p>Smona Mina</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="./images/member-4.png" alt="" />
+          </div>
+          <p>Azad Khan</p>
+        </div>
+      </div>
+    </div>
+    <script src="jss/main.js"></script>
+  </body>
+</html>
